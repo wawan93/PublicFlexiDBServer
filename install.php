@@ -302,7 +302,7 @@
 				global $fx_db;
 
 				if (!$fx_db) {
-					echo '<div class="error-msg">Unable to connect to database ['.$db_name.'] using specified credentials</div>';
+					echo '<div class="error-msg">Unable to connect to database ['.$db_name.'] using specified credentials. Please ensure that database exists.</div>';
 				}
 				else {
 
@@ -425,12 +425,8 @@
         
             <h1>Congratulations!</h1>
             <p>FlexiDB server was successfully installed</p>
-            <p>You will be redirected in a few seconds...</p>
-            <p><a href="<?php echo $base_url?>">Go to FlexiDB Server</a><p>
-            <script language="javascript">
-                setTimeout(function(){ window.location = "<?php echo $base_url?>";}, 5000);
-            </script>
-            
+            <p style="font-size:24px"><a href="<?php echo $base_url?>">Go to FlexiDB Server</a><p>
+
 		<?php
 		break;
 		case 'install':
