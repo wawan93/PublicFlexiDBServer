@@ -1,0 +1,451 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Your Project Name\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-27 10:50+0700\n"
+"PO-Revision-Date: 2014-05-27 10:53+0700\n"
+"Last-Translator: Anton Vodkin <aevodkin@gmail.com>\n"
+"Language-Team: Your Team Name <info@yourdomain.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../fx_page.php:44
+msgid "Apply"
+msgstr "Appliquer"
+
+#: ../../../fx_page.php:48
+msgid "Currently logged in as"
+msgstr "Actuellement connecté en tant"
+
+#: ../../../fx_page.php:49
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: ../../../fx_page.php:50
+msgid "Send error report"
+msgstr "Envoyer un rapport d'erreur"
+
+#: ../../../fx_page.php:69
+msgid "minimize menu"
+msgstr "réduire menu"
+
+#: ../../../fx_page_init.php:10
+msgid "Home"
+msgstr ""
+
+#: ../../../fx_page_init.php:10
+msgid "Welcome to DFX Admin tool"
+msgstr ""
+
+#: ../../../fx_page_init.php:11
+msgid "DB Admin"
+msgstr ""
+
+#: ../../../fx_page_init.php:11
+msgid "Database Admin"
+msgstr ""
+
+#: ../../../fx_page_init.php:12
+msgid "Design Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:13
+msgid "Data Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:14
+msgid "DB Widgets"
+msgstr ""
+
+#: ../../../fx_page_init.php:14
+msgid "Database Widgets"
+msgstr ""
+
+#: ../../../fx_page_init.php:15
+msgid "App Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:15
+msgid "Application Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:16 ../../../fx_page_init.php:49
+msgid "Task Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:17
+msgid "Import/Export"
+msgstr ""
+
+#: ../../../fx_page_init.php:17
+msgid "Import Export Tool"
+msgstr ""
+
+#: ../../../fx_page_init.php:18
+msgid "Report Tool"
+msgstr ""
+
+#: ../../../fx_page_init.php:20
+msgid "Data Schemas"
+msgstr ""
+
+#: ../../../fx_page_init.php:20
+msgid "Data Schema Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:21
+msgid "Data Sets"
+msgstr ""
+
+#: ../../../fx_page_init.php:21
+msgid "Data Set Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:22
+msgid "Subscriptions"
+msgstr ""
+
+#: ../../../fx_page_init.php:23
+msgid "Permission Requests"
+msgstr ""
+
+#: ../../../fx_page_init.php:24
+msgid "Media"
+msgstr ""
+
+#: ../../../fx_page_init.php:25
+msgid "Roles"
+msgstr ""
+
+#: ../../../fx_page_init.php:25
+msgid "Roles Manager"
+msgstr ""
+
+#: ../../../fx_page_init.php:26
+msgid "Data Integrity"
+msgstr ""
+
+#: ../../../fx_page_init.php:26
+msgid "DB Data Integrity"
+msgstr ""
+
+#: ../../../fx_page_init.php:28
+msgid "Object Types"
+msgstr ""
+
+#: ../../../fx_page_init.php:28
+msgid "Object Type Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:29
+msgid "Enum Types"
+msgstr ""
+
+#: ../../../fx_page_init.php:29
+msgid "Enum Type Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:30
+msgid "Link Types"
+msgstr ""
+
+#: ../../../fx_page_init.php:30
+msgid "Link Type Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:31
+msgid "ER Diagram"
+msgstr ""
+
+#: ../../../fx_page_init.php:31
+msgid "ER Diagram Designer"
+msgstr ""
+
+#: ../../../fx_page_init.php:32
+msgid "Templates"
+msgstr ""
+
+#: ../../../fx_page_init.php:32
+msgid "Template Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:34
+msgid "Objects"
+msgstr ""
+
+#: ../../../fx_page_init.php:34
+msgid "Objects Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:36
+msgid "Component Objects"
+msgstr ""
+
+#: ../../../fx_page_init.php:37
+msgid "Component Wizard"
+msgstr ""
+
+#: ../../../fx_page_init.php:38 ../../../fx_page_init.php:39
+msgid "Query Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:39
+msgid "Query Editor V2"
+msgstr ""
+
+#: ../../../fx_page_init.php:40
+msgid "Form Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:41
+msgid "Chart Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:43
+msgid "App Objects"
+msgstr ""
+
+#: ../../../fx_page_init.php:43
+msgid "Application Objects"
+msgstr ""
+
+#: ../../../fx_page_init.php:44
+msgid "Pages Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:45
+msgid "Theme Roller"
+msgstr ""
+
+#: ../../../fx_page_init.php:46
+msgid "Preview"
+msgstr ""
+
+#: ../../../fx_page_init.php:47
+msgid "Release Manager"
+msgstr ""
+
+#: ../../../fx_page_init.php:50
+msgid "Task Actions"
+msgstr ""
+
+#: ../../../fx_page_init.php:51
+msgid "Task Objects"
+msgstr ""
+
+#: ../../../fx_page_init.php:51
+msgid "Task Object"
+msgstr ""
+
+#: ../../../fx_page_init.php:53
+msgid "Import Tool"
+msgstr ""
+
+#: ../../../fx_page_init.php:54
+msgid "Export Tool"
+msgstr ""
+
+#: ../../../fx_page_init.php:59
+msgid "Websites"
+msgstr ""
+
+#: ../../../fx_page_init.php:59
+msgid "Websites Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:60
+msgid "SSH Terminal"
+msgstr ""
+
+#: ../../../fx_page_init.php:60
+msgid "Network Admin"
+msgstr ""
+
+#: ../../../fx_page_init.php:61
+msgid "Plugins"
+msgstr ""
+
+#: ../../../fx_page_init.php:62
+msgid "Settings"
+msgstr ""
+
+#: ../../../fx_page_init.php:63
+msgid "Software"
+msgstr ""
+
+#: ../../../fx_page_init.php:65
+msgid "Generic Websites"
+msgstr ""
+
+#: ../../../fx_page_init.php:66
+msgid "WordPress Websites"
+msgstr ""
+
+#: ../../../fx_page_init.php:66
+msgid "WordPress Sites"
+msgstr ""
+
+#: ../../../fx_page_init.php:68
+msgid "Server"
+msgstr ""
+
+#: ../../../fx_page_init.php:68
+msgid "Server Settings"
+msgstr ""
+
+#: ../../../fx_page_init.php:69
+msgid "General"
+msgstr ""
+
+#: ../../../fx_page_init.php:69
+msgid "General Settings"
+msgstr ""
+
+#: ../../../fx_page_init.php:70
+msgid "Personal"
+msgstr ""
+
+#: ../../../fx_page_init.php:70
+msgid "Personal Settings"
+msgstr ""
+
+#: ../../../fx_page_init.php:72
+msgid "Update"
+msgstr ""
+
+#: ../../../fx_page_init.php:72
+msgid "Flexiweb Update"
+msgstr ""
+
+#: ../../../fx_page_init.php:73
+msgid "Log"
+msgstr "Register"
+
+#: ../../../fx_page_init.php:73
+msgid "Flexiweb Log"
+msgstr ""
+
+#: ../../../fx_page_init.php:74
+msgid "Test Page"
+msgstr ""
+
+#: ../../../fx_page_init.php:75
+msgid "DFX Users"
+msgstr ""
+
+#: ../../../fx_page_init.php:75
+msgid "DFX Server users"
+msgstr ""
+
+#: ../../../pages/login.php:35
+msgid "username"
+msgstr "nom d'utilisateur"
+
+#: ../../../pages/login.php:36
+msgid "password"
+msgstr "mot de passe"
+
+#: ../../../pages/login.php:38
+msgid "Sign In"
+msgstr "Connexion"
+
+#: ../../../pages/login.php:41
+msgid "Remember me"
+msgstr "Souvenir de moi"
+
+#: ../../../pages/login.php:43
+msgid "Forgot your password"
+msgstr "De passe oublié?"
+
+#: ../../../pages/network_data_schemas.php:28
+msgid "No roles available in current Data Schema"
+msgstr ""
+
+#: ../../../pages/network_data_schemas.php:43
+msgid "Select type with additional user fields for this Data Schema"
+msgstr ""
+
+#: ../../../pages/network_data_schemas.php:45
+msgid "None"
+msgstr ""
+
+#: ../../../pages/network_data_schemas.php:51
+msgid "No types available in current Data Schema"
+msgstr ""
+
+#: ../../../pages/network_data_schemas.php:67
+msgid "Edit Channel"
+msgstr ""
+
+#: ../../../test/lang_test/index.php:17 ../../../test/lang_test/index.php:48
+msgid "Hello!"
+msgstr "Bonjour!"
+
+#: ../../../test/lang_test/index.php:49
+msgid ""
+"This is an example that shows how to translate your website using PHP and "
+"gettext."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Version:"
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "Logged in as"
+#~ msgstr "Actuellement connecté en tant"
+
+#, fuzzy
+#~ msgid "Yellow"
+#~ msgstr "Bonjour!"
+
+#, fuzzy
+#~ msgid "Version"
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "Revisions"
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "Update to version %s"
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "Hello world!"
+#~ msgstr "Bonjour!"
+
+#, fuzzy
+#~ msgid "Current Version"
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "Revision"
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "Main menu"
+#~ msgstr "réduire menu"
+
+#, fuzzy
+#~ msgid "Login-logout"
+#~ msgstr "Déconnexion"
+
+#, fuzzy
+#~ msgid "Logo"
+#~ msgstr "Déconnexion"
+
+#, fuzzy
+#~ msgid "Version: "
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "(Currently set to: %s)"
+#~ msgstr "Actuellement connecté en tant"

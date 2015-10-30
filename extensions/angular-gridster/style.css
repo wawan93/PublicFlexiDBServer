@@ -1,0 +1,26 @@
+/*body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #004756;
+    color: #fff;
+}*/
+.gridster .gridster-item {
+    padding: 10px;
+    display:flex;
+    flex-flow:column;
+}
+
+li.gridster-item:hover {
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.widget_edit_bar {
+    display:none;
+    position:absolute;
+    right: 10px;
+    text-align: right;
+    width: calc(100% - 20px);
+    z-index:5;}
+
+li.gridster-item:hover .widget_edit_bar {display: block}

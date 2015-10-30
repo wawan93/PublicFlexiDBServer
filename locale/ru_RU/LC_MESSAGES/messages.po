@@ -1,0 +1,400 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DFX Server\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-26 15:39+0700\n"
+"PO-Revision-Date: 2014-05-26 16:47+0700\n"
+"Last-Translator: Anton Vodkin <aevodkin@gmail.com>\n"
+"Language-Team: Your Team Name <info@yourdomain.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../fx_page.php:44
+msgid "Apply"
+msgstr "Применить"
+
+#: ../../../fx_page.php:48
+msgid "Currently logged in as"
+msgstr "Вы вошли как"
+
+#: ../../../fx_page.php:49
+msgid "Logout"
+msgstr "Выход"
+
+#: ../../../fx_page.php:50
+msgid "Send error report"
+msgstr "Послать отчет об ошибке"
+
+#: ../../../fx_page.php:69
+msgid "minimize menu"
+msgstr "свернуть меню"
+
+#: ../../../fx_page_init.php:10
+msgid "Home"
+msgstr "Главная"
+
+#: ../../../fx_page_init.php:10
+msgid "Welcome to DFX Admin tool"
+msgstr "Добро пожаловать в DFX Admin"
+
+#: ../../../fx_page_init.php:11
+msgid "DB Admin"
+msgstr "Администрирование"
+
+#: ../../../fx_page_init.php:11
+msgid "Database Admin"
+msgstr "Администрирование"
+
+#: ../../../fx_page_init.php:12
+msgid "Design Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:13
+msgid "Data Editor"
+msgstr "Редактор Данных"
+
+#: ../../../fx_page_init.php:14
+msgid "DB Widgets"
+msgstr "Виджеты"
+
+#: ../../../fx_page_init.php:14
+msgid "Database Widgets"
+msgstr "Виджеты"
+
+#: ../../../fx_page_init.php:15
+msgid "App Editor"
+msgstr "Приложения"
+
+#: ../../../fx_page_init.php:15
+msgid "Application Editor"
+msgstr "Редактор приложений"
+
+#: ../../../fx_page_init.php:16 ../../../fx_page_init.php:48
+msgid "Task Editor"
+msgstr "Задачи"
+
+#: ../../../fx_page_init.php:17
+msgid "Import/Export"
+msgstr "Импорт/Экспорт"
+
+#: ../../../fx_page_init.php:17
+msgid "Import Export Tool"
+msgstr "Импорт/Экспорт"
+
+#: ../../../fx_page_init.php:18
+msgid "Report Tool"
+msgstr "Отчеты"
+
+#: ../../../fx_page_init.php:20
+msgid "Data Schemas"
+msgstr "Схемы данных"
+
+#: ../../../fx_page_init.php:20
+msgid "Data Schema Editor"
+msgstr "Редактор схем данных"
+
+#: ../../../fx_page_init.php:21
+msgid "Data Sets"
+msgstr "Наборы данных"
+
+#: ../../../fx_page_init.php:21
+msgid "Data Set Editor"
+msgstr "Редактор наборов данных"
+
+#: ../../../fx_page_init.php:22
+msgid "Subscriptions"
+msgstr "Подписки"
+
+#: ../../../fx_page_init.php:23
+msgid "Permission Requests"
+msgstr "Разрешения"
+
+#: ../../../fx_page_init.php:24
+msgid "Media"
+msgstr "Медия"
+
+#: ../../../fx_page_init.php:25
+msgid "Roles"
+msgstr "Роли"
+
+#: ../../../fx_page_init.php:25
+msgid "Roles Manager"
+msgstr "Редактор ролей"
+
+#: ../../../fx_page_init.php:26
+msgid "Data Integrity"
+msgstr "Целостность данных"
+
+#: ../../../fx_page_init.php:26
+msgid "DB Data Integrity"
+msgstr "Целостность данных"
+
+#: ../../../fx_page_init.php:28
+msgid "Object Types"
+msgstr "Типы объектов"
+
+#: ../../../fx_page_init.php:28
+msgid "Object Type Editor"
+msgstr "Редактор типов объектов"
+
+#: ../../../fx_page_init.php:29
+msgid "Enum Types"
+msgstr "Перечисления"
+
+#: ../../../fx_page_init.php:29
+msgid "Enum Type Editor"
+msgstr "Редактор перечислений"
+
+#: ../../../fx_page_init.php:30
+msgid "Link Types"
+msgstr "Типы ссылок"
+
+#: ../../../fx_page_init.php:30
+msgid "Link Type Editor"
+msgstr "Редактор типов ссылок"
+
+#: ../../../fx_page_init.php:31
+msgid "ER Diagram"
+msgstr "ER диаграмма"
+
+#: ../../../fx_page_init.php:31
+msgid "ER Diagram Designer"
+msgstr "ER диаграмма"
+
+#: ../../../fx_page_init.php:32
+msgid "Templates"
+msgstr "Шаблоны"
+
+#: ../../../fx_page_init.php:32
+msgid "Template Editor"
+msgstr "Редактор шаблонов"
+
+#: ../../../fx_page_init.php:34
+msgid "Objects"
+msgstr "Объекты"
+
+#: ../../../fx_page_init.php:34
+msgid "Objects Editor"
+msgstr "Редактор объектов"
+
+#: ../../../fx_page_init.php:36
+msgid "Component Objects"
+msgstr "Компоненты"
+
+#: ../../../fx_page_init.php:37
+msgid "Component Wizard"
+msgstr "Мастер компонентов"
+
+#: ../../../fx_page_init.php:38
+msgid "Query Editor"
+msgstr "Редактор запросов"
+
+#: ../../../fx_page_init.php:39
+msgid "Form Editor"
+msgstr "Редактор форм"
+
+#: ../../../fx_page_init.php:40
+msgid "Chart Editor"
+msgstr "Редактор диаграмм"
+
+#: ../../../fx_page_init.php:42
+msgid "App Objects"
+msgstr "Объекты приложений"
+
+#: ../../../fx_page_init.php:42
+msgid "Application Objects"
+msgstr "Объекты приложений"
+
+#: ../../../fx_page_init.php:43
+msgid "Pages Editor"
+msgstr "Редактор страниц"
+
+#: ../../../fx_page_init.php:44
+msgid "Theme Roller"
+msgstr ""
+
+#: ../../../fx_page_init.php:45
+msgid "Preview"
+msgstr ""
+
+#: ../../../fx_page_init.php:46
+msgid "Release Manager"
+msgstr "Релизы"
+
+#: ../../../fx_page_init.php:49
+msgid "Task Actions"
+msgstr ""
+
+#: ../../../fx_page_init.php:50
+msgid "Task Objects"
+msgstr ""
+
+#: ../../../fx_page_init.php:50
+msgid "Task Object"
+msgstr ""
+
+#: ../../../fx_page_init.php:52
+msgid "Import Tool"
+msgstr ""
+
+#: ../../../fx_page_init.php:53
+msgid "Export Tool"
+msgstr ""
+
+#: ../../../fx_page_init.php:58
+msgid "Websites"
+msgstr ""
+
+#: ../../../fx_page_init.php:58
+msgid "Websites Editor"
+msgstr ""
+
+#: ../../../fx_page_init.php:59
+msgid "SSH Terminal"
+msgstr ""
+
+#: ../../../fx_page_init.php:59
+msgid "Network Admin"
+msgstr ""
+
+#: ../../../fx_page_init.php:60
+msgid "Plugins"
+msgstr ""
+
+#: ../../../fx_page_init.php:61
+msgid "Settings"
+msgstr ""
+
+#: ../../../fx_page_init.php:62
+msgid "Software"
+msgstr ""
+
+#: ../../../fx_page_init.php:64
+msgid "Generic Websites"
+msgstr ""
+
+#: ../../../fx_page_init.php:65
+msgid "WordPress Websites"
+msgstr ""
+
+#: ../../../fx_page_init.php:65
+msgid "WordPress Sites"
+msgstr ""
+
+#: ../../../fx_page_init.php:67
+msgid "Server"
+msgstr ""
+
+#: ../../../fx_page_init.php:67
+msgid "Server Settings"
+msgstr ""
+
+#: ../../../fx_page_init.php:68
+msgid "General"
+msgstr ""
+
+#: ../../../fx_page_init.php:68
+msgid "General Settings"
+msgstr ""
+
+#: ../../../fx_page_init.php:69
+msgid "Personal"
+msgstr ""
+
+#: ../../../fx_page_init.php:69
+msgid "Personal Settings"
+msgstr ""
+
+#: ../../../fx_page_init.php:71
+msgid "Update"
+msgstr ""
+
+#: ../../../fx_page_init.php:71
+msgid "Flexiweb Update"
+msgstr ""
+
+#: ../../../fx_page_init.php:72
+#, fuzzy
+msgid "Log"
+msgstr "Déconnexion"
+
+#: ../../../fx_page_init.php:72
+msgid "Flexiweb Log"
+msgstr ""
+
+#: ../../../fx_page_init.php:73
+msgid "Test Page"
+msgstr ""
+
+#: ../../../test/lang_test/index.php:17 ../../../test/lang_test/index.php:48
+msgid "Hello!"
+msgstr "Привет!"
+
+#: ../../../test/lang_test/index.php:49
+msgid ""
+"This is an example that shows how to translate your website using PHP and "
+"gettext."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Version:"
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "Logged in as"
+#~ msgstr "Actuellement connecté en tant"
+
+#, fuzzy
+#~ msgid "Yellow"
+#~ msgstr "Bonjour!"
+
+#, fuzzy
+#~ msgid "Version"
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "Revisions"
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "Update to version %s"
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "Hello world!"
+#~ msgstr "Bonjour!"
+
+#, fuzzy
+#~ msgid "Current Version"
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "Revision"
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "Main menu"
+#~ msgstr "réduire menu"
+
+#, fuzzy
+#~ msgid "Login-logout"
+#~ msgstr "Déconnexion"
+
+#, fuzzy
+#~ msgid "Logo"
+#~ msgstr "Déconnexion"
+
+#, fuzzy
+#~ msgid "Version: "
+#~ msgstr "Obtenir une version"
+
+#, fuzzy
+#~ msgid "(Currently set to: %s)"
+#~ msgstr "Actuellement connecté en tant"

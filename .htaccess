@@ -1,0 +1,13 @@
+ErrorDocument 404 "DFX Server: Page not found!"
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^api/test(.*)?(.*)$ api/test/api.php?endpoint=$1&$2 [QSA,L]
+RewriteRule ^api/v1(.*)?(.*)$ api/v1/api.php?endpoint=$1&$2 [QSA,L]
+RewriteRule ^([_a-zA-Z0-9/]+)/?$ ?path=$1 [QSA,L]
+RewriteRule ^api/v1(.*)?(.*)$ api/v1/api.php?endpoint=$1&$2 [QSA,L]
+
+php_value max_execution_time 120
+
