@@ -32,8 +32,12 @@ function fx_show_content()
 		include $content_dir.$content_file;
 	}
 	else {
-		if(is_fx_error(do_actions('fx_show_custom_content_page', $error))) {
-			fx_redirect(URL.'404.html');
+		$content_error = new FX_Error(__FUNCTION__, _('Page not found'));
+
+		$custom_content = do_actions('fx_show_custom_content_page', $content_error);
+
+		if (is_fx_error($custom_content)) {
+			fx_show_error_metabox($custom_content->get_error_message());
 		}
 	}
 }
@@ -45,9 +49,6 @@ function fx_show_page_header()
     if ($menu_item = $fx_main_menu -> get_menu_item(PAGE, FIRST_PARAM)) {
 		$page_header = $menu_item['header'];
 	}
-/*	elseif ($menu_item = $fx_server_menu -> get_menu_item(PAGE, FIRST_PARAM)) {
-		$page_header = $menu_item['header'];
-	}*/
 	else {
 		$page_header = PAGE.'/'.FIRST_PARAM;
 	}
@@ -86,12 +87,10 @@ function fx_show_company_logo()
 }
 
 add_action('fx_show_main_menu', 'fx_show_menu');
-//add_action('fx_show_server_menu', 'fx_show_menu');
 add_action('fx_show_content', 'fx_show_content');
 add_action('fx_show_page_header', 'fx_show_page_header');
 add_action('fx_show_footer', 'fx_show_footer');
 add_action('fx_show_company_logo', 'fx_show_company_logo');
-
 
 /*******************************************************************************
  * Metabox functions
@@ -302,7 +301,6 @@ function fx_show_schema_control()
 	echo '
 	<a href="'.$cnl_url.'" class="'.$cnl_btn_class.'" title="Schema Channel">C</a>
 	<a href="'.$app_url.'" class="'.$app_btn_class.'" title="Schema Application">A</a>
-	<a href="'.$www_url.'" class="'.$www_btn_class.'" title="Websites">W</a>
 	<a href="'.$ico_url.'" class="btn-ico" title="Channel Icon"><img src="'.$schema_ico_url.'"></a>
 	&nbsp;
 	<a href="'.$er_url.'" class="active" title="Schema ER Diagram">Er</a>';

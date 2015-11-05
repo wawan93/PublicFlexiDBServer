@@ -135,10 +135,12 @@
 	//define('U_ALL', U_READ | U_CREATE | U_EDIT | U_DELETE); // 1111
 
 	/*******************************************************************************
-	 * Database connestion
+	 * Database connection
 	 ******************************************************************************/
 	
-	require_once CONF_FX_DIR . "/fx_db_connect.php";
+	if (!$initial) {
+		require_once CONF_FX_DIR . "/fx_db_connect.php";
+	}
 	
 	/*******************************************************************************
 	 * FlexiDB library
